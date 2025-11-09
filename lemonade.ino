@@ -6,7 +6,7 @@
 #include <LiquidCrystal_I2C.h>
 //GyverHX711 sensor(50, 51, HX_GAIN64_A); // первый сенсор
 //Filter fil;
-Q2HX711 hx4(A3, A4);
+Q2HX711 hx4(A3, A4);  //комментарий
 Q2HX711 hx3(A5, A6);
 Q2HX711 hx2(A7, A8);
 Q2HX711 hx1(A9, A10);
